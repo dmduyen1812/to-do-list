@@ -1,0 +1,60 @@
+.new-task-container {
+    flex: 40%;
+    border-right: 1px solid;
+    padding: 40px;
+}
+
+.label-title {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.box-component {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-top: 30px;
+    flex: 1;
+}
+
+.date-priority {
+    display: flex;
+    column-gap: 20px;
+}
+
+.date-box {
+    border: 2px solid;
+    height: -webkit-fill-available;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon-box {
+    border-left: 2px solid ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+}
+
+.add-button {
+    width: -webkit-fill-available;
+    background-color: #5CB85C;
+    border-radius: 5px;
+    color: white;
+    margin-top: 30px;
+    height: 30px;
+    border: 2px;
+}
+
+.add-button:focus {
+    outline: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .new-task-container {
+      border: none;
+      border-bottom: 1px solid;
+    }
+  }

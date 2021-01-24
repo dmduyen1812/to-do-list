@@ -1,0 +1,45 @@
+.box-item {
+    display: flex;
+    border: 1px solid;
+    margin-top: 20px;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.button-box {
+    display: flex;
+}
+
+.detail-button, .remove-button, .done-button {
+    padding: 8px 20px;
+    margin-left: 10px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+
+.detail-button  {
+    background-color: #00BCD4;
+}
+
+.remove-button {
+    background-color: #D9534F;
+}
+
+.done-button {
+    background-color: #2196F3;
+}
+
+.center-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 768px) {
+    .button-box{
+        flex-direction: column;
+        grid-gap: 10px;
+    }
+  }
